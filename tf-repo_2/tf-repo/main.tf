@@ -6,3 +6,9 @@ module "resource_group" {
   location = each.value.location
   tags     = each.value.tags
 }
+
+ name     = each.key
+  location = each.value.location
+  tags     = each.value.tagsvalue
+
+}
