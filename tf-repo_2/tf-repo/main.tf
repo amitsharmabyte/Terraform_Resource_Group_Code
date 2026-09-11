@@ -9,6 +9,6 @@ module "resource_group" {
 
  name     = each.key
   location = each.value.location
-  tags     = each.value.tags
+  tags     = each.value.tagsvalue
 
 }
